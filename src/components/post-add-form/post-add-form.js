@@ -1,20 +1,21 @@
 import React from 'react';
 
+import './post-add-form.css'
+
 const PostAddForm = () => {
     return (
         <form className="bottom-panel d-flex">
             <input
                 type="text"
-                placeholder="о чем ві думаете сейчас?"
+                placeholder="О чем вы думаете сейчас?"
                 className="form-control new-post-label"
             />
-            <button 
+            <button
                 type="submit"
                 className="btn btn-outline-secondary">
-            Добавить
-            </button>
+                Добавить</button>
         </form>
-    )   
+    )
 }
 
 export default PostAddForm;
